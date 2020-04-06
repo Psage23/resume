@@ -1,8 +1,7 @@
-import React from React;
+import React from 'react';
 
 export default function Projects() {
     return (
-        //Main 
         <div id="main">
         <section id="one" class="tiles">
             <article>
