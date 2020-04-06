@@ -8,7 +8,7 @@ export default function Intro() {
             <header>
                 <h1>Hi, my name is Pamela Sage</h1>
             </header>
-            <p>I am a Web Developer with a passion for technology.</p>
+            <p>I am a Web Developer with a passion for technology.<br/> See my code below </p>
         </div>
     )
 }

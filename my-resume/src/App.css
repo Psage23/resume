@@ -15,6 +15,9 @@
 	color: white;
 	background-color: black;
 	height: 60vh;
+	box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.2), 0 3px 10px 0 rgba(206, 200, 200, 0.397);
+	margin-bottom: 3%;
+	border-bottom: 1px solid white;
 }
 
 .intro h1 {
@@ -28,7 +31,7 @@
 .intro p {
 	font-size: 1.5rem;
 	position: absolute;
-	top: 70%;
+	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
@@ -53,6 +56,7 @@
 	height: 40vh;
 	margin: 2%;
 	margin-right: 4.5%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .one div {
@@ -62,6 +66,7 @@
 	margin-left: 2%;
 	margin-top: 2%;
 	height: 40vh;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .one h2 {
@@ -112,7 +117,8 @@ button a {
 .two img {
 	width: 50%;
 	height: 40vh;
-	margin: 2%;
+	margin: 2% 1% 2% 2%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .two div {
@@ -123,6 +129,7 @@ button a {
 	margin-top: 2%;
 	margin-right: 4%;
 	height: 40vh;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .two h2 {
@@ -142,4 +149,247 @@ button a {
 	flex-wrap: wrap;
 	align-content: center;
 	justify-content: center;
+}
+
+.three {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: auto;
+}
+
+.three img {
+	width: 50%;
+	height: 40vh;
+	margin: 2%;
+	margin-right: 4.5%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.three div {
+	background-color: rgb(104, 223, 88);
+	color: white;
+	width: 40%;
+	margin-left: 1%;
+	margin-top: 2%;
+	height: 40vh;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.three h2 {
+	font-size: 2rem;
+	padding-top: 10%;
+	text-align: center;
+}
+
+.three p {
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+.three span {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+}
+
+button {
+	background-color: #fffefef8;
+	border: none;
+	text-decoration: none;
+	text-align: center;
+	width: 200px;
+	margin-top: 15px;
+	margin-left: 200px;
+	padding: 10px;
+
+}
+
+button a {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+
+.four {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: auto;
+}
+
+.four img {
+	width: 50%;
+	height: 40vh;
+	margin: 2%;
+	margin: 2% 1% 2% 2%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.four div {
+	background-color: rgb(218, 108, 80);
+	color: white;
+	width: 40%;
+	margin-left: 2%;
+	margin-right: 4.2%;
+	margin-top: 2%;
+	height: 40vh;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.four h2 {
+	font-size: 2rem;
+	padding-top: 10%;
+	text-align: center;
+}
+
+.four p {
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+.four span {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+}
+
+button {
+	background-color: #fffefef8;
+	border: none;
+	text-decoration: none;
+	text-align: center;
+	width: 200px;
+	margin-top: 15px;
+	margin-left: 200px;
+	padding: 10px;
+
+}
+
+button a {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+
+.five {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: auto;
+}
+
+.five img {
+	width: 50%;
+	height: 40vh;
+	margin: 2%;
+	margin-right: 6%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.five div {
+	background-color: rgb(73, 71, 150);
+	color: white;
+	width: 40%;
+	margin-top: 2%;
+	height: 40vh;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.five h2 {
+	font-size: 2rem;
+	padding-top: 13%;
+	text-align: center;
+}
+
+.five p {
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+.five span {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+}
+
+.six {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: auto;
+}
+
+.six img {
+	width: 50%;
+	height: 40vh;
+	margin: 2%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.six div {
+	background-color: rgb(199, 201, 87);
+	color: white;
+	width: 40%;
+	margin-left: 2%;
+	margin-right: 4%;
+	margin-top: 2%;
+	height: 40vh;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.six h2 {
+	font-size: 2rem;
+	padding-top: 10%;
+	text-align: center;
+}
+
+.six p {
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+.six span {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+}
+
+button {
+	background-color: #fffefef8;
+	border: none;
+	text-decoration: none;
+	text-align: center;
+	width: 200px;
+	margin-top: 15px;
+	margin-left: 200px;
+	padding: 10px;
+
+}
+
+button a {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+
+.contact {
+	width: 95.8%;
+	background-color: rgb(56, 51, 51);
+	color: white;
+	margin-top: 5%;
+	padding: 2%;
+	border-top: 1px solid white;
+	font-size: 1.3rem;
 }

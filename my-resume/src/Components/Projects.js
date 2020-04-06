@@ -28,33 +28,45 @@ export default function Projects() {
                 <img src={lightbulb} alt="light bulb"/>
             </div>
 
-            <div>
+            <div class="three">
                 <img src={crayons} alt="small child coloring" />
-                <a href="https://musing-mestorf-ff86eb.netlify.com/">Luncher App</a>
-                <p>The goal for this project is to build a website for School
-                Adminstators to raise money for students that are not able to pay for
-                their lunch.
-                </p>
+                <div>
+                    <h2>Luncher</h2>
+                    <p>The goal for this project is to build a website for School<br/>
+                    Adminstators to raise money for students that are not able to pay <br/> for
+                    their lunch.
+                    </p> 
+                   <button><a href="https://musing-mestorf-ff86eb.netlify.com/">Click Here To Visit</a></button>
+                </div> 
             </div>
 
-            <div>
+            <div class="four">
+                <div>
+                    <h2>SpaceWalker</h2>
+                    <p>This is a project that is styled by CSS only.</p>
+                    <button><a href="https://ecstatic-cray-6496a4.netlify.com/">Click Here To Visit</a></button>
+                </div>
                 <img src={space} alt="Astronaut in Space" />
-                <a href="https://ecstatic-cray-6496a4.netlify.com/">SpaceWalker</a>
-                 <p>This is a project that is styled by CSS only.</p>
             </div>
 
-            <div>
+            <div class="five">
                 <img src={yellowVan} alt="Yellow bus" />
-                <a href="https://ecstatic-ramanujan-b53ffe.netlify.com/" class="link">Fun Bus Website</a>
-                <p>This website is a fun example of animations and providing more User
-                experience.</p>
+                <div>
+                    <h2>Fun Bus Website</h2>
+                    <p>This website is a fun example of animations and providing more User
+                    experience.</p>
+                    <button><a href="https://ecstatic-ramanujan-b53ffe.netlify.com/">Click Here To Visit</a></button>
+                </div>
             </div>
                 
-           <div>
+           <div class="six">
+               <div>
+                   <h2>GitHub User Card</h2>
+                    <p>Using JavaScript to add elements to <br/> the html I am able to create a
+                    list of User Profiles.</p>
+                    <button><a href="https://hungry-edison-51c1af.netlify.com">Click Here To Visit</a></button>
+               </div>
                <img src={profilecard} alt="Lambda and GitHub icons" />
-               <a href="https://hungry-edison-51c1af.netlify.com" class="link">GitHub User Card</a>
-                <p>Using JavaScript to add elements to the html I am able to create a
-                list of User Profiles.</p>
            </div>
             
     </section>
